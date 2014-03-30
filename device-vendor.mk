@@ -465,13 +465,34 @@ PRODUCT_COPY_FILES += \
 
 #/system/media
 PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/prebuilt/media/LMprec_508.emd:/system/media/LMprec_508.emd \
-    vendor/hisense/m470/prebuilt/media/PFFprec_600.emd:/system/media/PFFprec_600.emd
+    vendor/hisense/m470/prebuilt/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/hisense/m470/prebuilt/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 #/system/usr
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
     vendor/hisense/m470/prebuilt/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl
+
+#/system/usr/share/alsa
+PRODUCT_COPY_FILES += \
+    vendor/prebuilt/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    vendor/prebuilt/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    vendor/prebuilt/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+
 
 #/system/usr/share/nvcs
 PRODUCT_COPY_FILES += \
