@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/etc/asound.conf:system/etc/asound.conf \
     vendor/hisense/m470/prebuilt/etc/audioConfig_qvoice_icera_pc400.xml:system/etc/audioConfig_qvoice_icera_pc400.xml \
-    vendor/hisense/m470/prebuilt/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/hisense/m470/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/hisense/m470/prebuilt/etc/dbus.conf:system/etc/dbus.conf \
     vendor/hisense/m470/prebuilt/etc/enctune.conf:system/etc/enctune.conf \
