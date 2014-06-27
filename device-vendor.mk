@@ -182,15 +182,12 @@ PRODUCT_COPY_FILES += \
 #/system/lib/egl
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/hisense/m470/prebuilt/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/hisense/m470/prebuilt/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/hisense/m470/prebuilt/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
-    vendor/hisense/m470/prebuilt/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
     vendor/hisense/m470/prebuilt/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/hisense/m470/prebuilt/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
-    vendor/hisense/m470/prebuilt/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
     vendor/hisense/m470/prebuilt/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-vendor/hisense/m470/prebuilt/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so
+    vendor/hisense/m470/prebuilt/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so
     
 #/system/lib/hw
 PRODUCT_COPY_FILES += \
