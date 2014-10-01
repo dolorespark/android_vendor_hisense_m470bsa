@@ -467,7 +467,9 @@ PRODUCT_COPY_FILES += \
 #/system/usr
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/usr/idc/atmel-maxtouch.idc:system/usr/idc/atmel-maxtouch.idc \
-    vendor/hisense/m470/prebuilt/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl
+    vendor/hisense/m470/prebuilt/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
+    vendor/hisense/m470/prebuilt/usr/keylayout/Vendor_057e_Product_0306.kl:system/usr/keylayout/Vendor_057e_Product_0306.kl \
+    vendor/hisense/m470/prebuilt/usr/keylayout/Vendor_057e_Product_0330.kl:system/usr/keylayout/Vendor_057e_Product_0330.kl
 
 #/system/usr/share/alsa
 PRODUCT_COPY_FILES += \
