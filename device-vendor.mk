@@ -175,7 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/prebuilt/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hisense/m470/prebuilt/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
-    vendor/hisense/m470/prebuilt/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/hisense/m470/prebuilt/lib/libtinyalsa.so:system/lib/libtinyalsa-legacy.so \
     vendor/hisense/m470/prebuilt/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/hisense/m470/prebuilt/lib/scapture.so:system/lib/scapture.so
     
