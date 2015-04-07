@@ -76,6 +76,10 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/etc/broadcom/wifi/txn5g.sh:system/etc/broadcom/wifi/txn5g.sh \
     vendor/hisense/m470/prebuilt/etc/broadcom/wifi/txunmod.sh:system/etc/broadcom/wifi/txunmod.sh
 
+#/system/etc/dhcpcd
+PRODUCT_COPY_FILES += \
+    vendor/hisense/m470/prebuilt/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf
+
 #/system/etc/firmware
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
