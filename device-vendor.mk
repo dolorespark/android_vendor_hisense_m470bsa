@@ -17,6 +17,9 @@
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+PRODUCT_PACKAGES += \
+    libtf_crypto_sst
+
 #/system/bin
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
@@ -178,10 +181,9 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libpython2.6.so:system/lib/libpython2.6.so \
     vendor/hisense/m470/prebuilt/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/prebuilt/lib/libtbb.so:system/lib/libtbb.so \
-    vendor/hisense/m470/prebuilt/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/hisense/m470/prebuilt/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/hisense/m470/prebuilt/lib/scapture.so:system/lib/scapture.so
-    
+
 #/system/lib/egl
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
