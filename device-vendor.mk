@@ -197,7 +197,6 @@ PRODUCT_COPY_FILES += \
 #/system/lib/hw
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/hisense/m470/prebuilt/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/hisense/m470/prebuilt/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/hisense/m470/prebuilt/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/hisense/m470/prebuilt/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
