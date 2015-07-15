@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/prebuilt/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hisense/m470/prebuilt/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
+    vendor/hisense/m470/prebuilt/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hisense/m470/prebuilt/lib/libdbus.so:system/lib/libdbus.so \
     vendor/hisense/m470/prebuilt/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hisense/m470/prebuilt/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
@@ -530,4 +531,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/hisense/m470/prebuilt/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/hisense/m470/prebuilt/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+
+#/system/vendor/lib/mediadrm
+PRODUCT_COPY_FILES += \
+    vendor/hisense/m470/prebuilt/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
