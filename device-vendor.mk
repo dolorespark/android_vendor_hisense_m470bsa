@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/etc/enctune.conf:system/etc/enctune.conf \
     vendor/hisense/m470/prebuilt/etc/gps.conf:system/etc/gps.conf \
     vendor/hisense/m470/prebuilt/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/hisense/m470/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml \
     vendor/hisense/m470/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/hisense/m470/prebuilt/etc/model_frontal.xml:system/etc/model_frontal.xml \
     vendor/hisense/m470/prebuilt/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
