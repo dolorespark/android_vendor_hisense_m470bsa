@@ -164,8 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/hisense/m470/prebuilt/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/hisense/m470/prebuilt/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/hisense/m470/prebuilt/lib/hw/nfc.tegra.so:system/lib/hw/nfc.tegra.so \
-    vendor/hisense/m470/prebuilt/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/hisense/m470/prebuilt/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 #/system/media
