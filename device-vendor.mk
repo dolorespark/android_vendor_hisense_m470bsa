@@ -74,7 +74,6 @@ PRODUCT_COPY_FILES += \
 
 #/system/lib
 PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/prebuilt/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so \
     vendor/hisense/m470/prebuilt/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/prebuilt/lib/libasound.so:system/lib/libasound.so \
     vendor/hisense/m470/prebuilt/lib/libaudioavp.so:system/lib/libaudioavp.so \
