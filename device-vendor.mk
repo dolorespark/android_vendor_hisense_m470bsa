@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/hisense/m470/prebuilt/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hisense/m470/prebuilt/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/hisense/m470/prebuilt/lib/libstlport.so:system/lib/libstlport.so \
     vendor/hisense/m470/prebuilt/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hisense/m470/prebuilt/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so
 
