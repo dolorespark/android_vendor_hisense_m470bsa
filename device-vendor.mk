@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/prebuilt/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hisense/m470/prebuilt/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
+    vendor/hisense/m470/prebuilt/lib/libcryptx.so:system/lib/libcryptx.so \
     vendor/hisense/m470/prebuilt/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hisense/m470/prebuilt/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hisense/m470/prebuilt/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
@@ -142,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/prebuilt/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/hisense/m470/prebuilt/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/hisense/m470/prebuilt/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
+    vendor/hisense/m470/prebuilt/lib/libssx.so:system/lib/libssx.so \
     vendor/hisense/m470/prebuilt/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/prebuilt/lib/libstlport.so:system/lib/libstlport.so \
     vendor/hisense/m470/prebuilt/lib/libtbb.so:system/lib/libtbb.so \
